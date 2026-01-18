@@ -1,0 +1,36 @@
+# MSIX Conversion Accelerator
+
+PackageName: HideOut by Mingsy
+
+PublisherName: MingsyHo
+
+PackageVersion: 1.0.23.0
+
+EligibleForConversion: Yes
+
+ConversionStatus: Package Created. Need Validation
+
+RemediationApproach:
+- SequenceNumber: 1
+  Issue:
+    Description: Capabilities Required
+  Fix:
+    FixType: Capability
+    FixDetails:
+      Capabilities:
+      - Name: internetClient
+        ApplicationIds:
+        - '*'
+
+Edition: Microsoft Windows 11 Pro
+
+MinimumOSVersion: 23H2
+
+MinimumOSBuild: 22631.6199
+
+Architecture: 64
+
+MSIXConversionToolVersion: 1.2024.405.0
+
+AcceleratorVersion: 1.0.0
+
