@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WAP_WinForm/WAP_WinForm.wapproj" Type="c7167f0d-bc9f-4e6e-afe1-012c56b48db5" Id="d01acae4-12b2-4b46-92bd-f111d2c61c3d">
+    <Deploy />
+  </Project>
+  <Project Path="WinForm_MSI/WinForm_MSI.wixproj" Type="b7dd6f7e-def8-4e67-b5b7-07ef123db6f0" Id="bd2d84d8-18a8-4bc2-b4cf-29b2b3f5fc14">
+    <Platform Solution="*|Any CPU" Project="x64" />
+    <Platform Solution="*|ARM" Project="x64" />
+  </Project>
+  <Project Path="WinForm_QKhanh/WinForm_QKhanh.csproj">
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+</Solution>

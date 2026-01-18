@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///A:/My_Folders/Projects/2026/WiX_Walkthrough/WinForm_QKhanh/WAP_WinForm/WAP_WinForm.appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="8e126d57-2444-4768-be70-328b53ae37e2"
+		Version="1.0.1.0"
+		Publisher="CN=B738A47F-56C2-4520-AF3C-85EFD5412315"
+		Uri="file:///A:/My_Folders/Projects/2026/WiX_Walkthrough/WinForm_QKhanh/WAP_WinForm/WAP_WinForm_1.0.1.0_Debug_Test/WAP_WinForm_1.0.1.0_x64_Debug.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
